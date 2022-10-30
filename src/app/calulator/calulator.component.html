@@ -1,0 +1,13 @@
+<div class="container">
+  
+    <label class="input-label">{{ display }}</label>
+  <div class="buttons-container">
+    <button
+      class="numbers"
+      *ngFor="let b of buttons"[ngClass]="{'span-2': b == 0,
+                                           'clear': b=='C'}"
+      (click)="displayKey(b.toString())">
+      {{ b }}
+    </button>
+  </div>
+</div>

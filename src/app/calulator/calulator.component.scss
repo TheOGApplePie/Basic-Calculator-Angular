@@ -1,0 +1,34 @@
+.container{
+    border: 2px solid;
+    display: block;
+    max-width: 150px;
+    background-color: rgb(31,122,140);
+}
+
+.input-label{
+    display: block;
+    position: relative;
+    max-width: 520px;
+    min-height:50px;
+    color: rgb(191,219,247);
+    background-color: rgb(5,60,94);
+    word-wrap: break-word;
+    text-align: end;
+}
+.span-2{
+    grid-column: span 1;
+}
+.buttons-container{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    height: 150px;
+}
+.numbers{
+background-color: rgb(31,122,140);
+border: 1px solid;
+}
+.clear{
+    background-color: rgb(163, 22, 33);
+}
+
